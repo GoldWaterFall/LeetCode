@@ -23,6 +23,8 @@ public class RemovElement {
 
     /**
      *快慢指针
+     * 快指针：寻找新数组的元素 ，新数组就是不含有目标元素的数组
+     * 慢指针：指向更新 新数组下标的位置
      * @param nums 一个数组
      * @param val 一个值
      * @return 移除后数组的新长度
