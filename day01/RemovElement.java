@@ -31,8 +31,8 @@ public class RemovElement {
         int slowIndex=0;
         for (int fastIndex=0; fastIndex <nums.length ; fastIndex++) {
             if(fastIndex!=val){
-                nums[slowIndex]=nums[fastIndex];
-                slowIndex++;
+                nums[slowIndex]=nums[fastIndex]; // 将当前快指针指向的元素复制到慢指针指向的位置
+                slowIndex++; // 增加慢指针的索引，以指向下一个位置
             }
         }
         return slowIndex;
