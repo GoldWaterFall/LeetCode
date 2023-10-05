@@ -14,7 +14,7 @@ public class ValidAnagram {
             record[s.charAt(i)-'a']++; //记录字母位置，s里有一个就加一个
         }
         for (int i = 0; i < t.length(); i++) {
-            record[t.charAt(i)-'a']--;
+            record[t.charAt(i)-'a']--;//t里面有一个就减一个
         }
 
         for (int count:
