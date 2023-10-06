@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RansomNote {
+
     /**
      * 找字母的题，尤其找字母数量，直接用数组做哈希表法
      * @param ransomNote
