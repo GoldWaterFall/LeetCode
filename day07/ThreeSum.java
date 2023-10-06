@@ -13,6 +13,7 @@ public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         int len = nums.length;
+
         if (nums == null || len < 3) return result;
         Arrays.sort(nums);//排序
         for (int i = 0; i < len; i++) {
